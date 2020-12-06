@@ -8,12 +8,12 @@ The notebooks contain code blocks that can be used as reference for required tas
  Pandas_apply_optimization.ipynb: Shows the comparison between various ways of applying functions to a pandas df. Helps in optimizing pandas codes
 
 ## Planned for immediate future:
- Linear regression
- Logistic regression
+ - Linear regression
+ - Logistic regression
 
 ## Planned for later (list is WIP as well, suggestions welcome):
- Decision Trees and Random forests
- Clustering
- PySpark (maybe a separate repo with all the above in PySpark)
+ - Decision Trees and Random forests
+ - Clustering
+ - PySpark (maybe a separate repo with all the above in PySpark)
 
 I plan to keep updating existing notebooks as well with new learnings along the way.
