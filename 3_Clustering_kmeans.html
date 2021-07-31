@@ -13780,7 +13780,7 @@ memory usage: 625.1+ KB
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Features-dataset">Features dataset<a class="anchor-link" href="#Features-dataset">&#182;</a></h2><p>The goal of this exercise is to group customers into <em>n</em> distinct clusters basis their sales activity and demographics data.</p>
 <p>In order to cluster customers, we will require a dataset that summarizes their activity over time into a customer id level dataset, i.e. <b>we need to depict each customer using 1 row for data that covers everything we know about the customer</b>.</p>
-<p>The required output table should have 1 row per customer with relevant information as feature columns. There are many possisble features that you can create here, some as simple as <em>sales $ for 1 year</em>, and some complicated or derived such as <em>quarterly change in sales of a customer for a particular product category</em>.</p>
+<p>The required output table should have 1 row per customer with relevant information as feature columns. There are many possible features that you can create here, some as simple as <em>sales $ for 1 year</em>, and some complicated or derived such as <em>quarterly change in sales of a customer for a particular product category</em>.</p>
 <p>This step of the process will involve conversations with the business stakeholders to determine what features matter to the business.</p>
 
 </div>
@@ -13790,7 +13790,7 @@ memory usage: 625.1+ KB
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><b>Features we will be creating for current exercise are listed below</b></p>
-<p>Data we have is for the calenday year 2020 and we will take the whole timeframe.<br>
+<p>Data we have is for the calendar year 2020 and we will take the whole time frame.<br>
 <mark>In your case, you might have to add relevant filters and join the sales dataset with some other datasets to get the required data that can then be aggregated to get below features.</mark></p>
 
 </div>
@@ -13844,7 +13844,7 @@ memory usage: 625.1+ KB
 <p>Customer information:</p>
 <ol>
 <li>Omni shopper flag</li>
-<li>Email subscirption flag
+<li>Email subscription flag
 Other demographics data will be kept only for profiling.</li>
 </ol>
 
@@ -16807,7 +16807,7 @@ inertia 591.0601380602852
 <li>The data used above does not have any strong differentiating markers except email subscription and omni shopper flags</li>
 <li>In real data you could have clusters such as <em>high value shoppers</em>, <em>low frequency shoppers</em>, or clusters showing affinity towards a single product category: <em>category B shoppers</em>, etc.</li>
 </ul>
-<p><mark>Note</mark>: You could also go back and change the number of clusters in case the profles aren't satisfactory. There are a few parameters as well that can be changed in the kMeans model.</p>
+<p><mark>Note</mark>: You could also go back and change the number of clusters in case the profiles aren't satisfactory. There are a few parameters as well that can be changed in the kMeans model.</p>
 
 </div>
 </div>
@@ -16842,7 +16842,7 @@ inertia 591.0601380602852
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="4.-Scoring">4. Scoring<a class="anchor-link" href="#4.-Scoring">&#182;</a></h1><p>Once we have a k-means model trained and the clusters profiled, we can setup a scoring process that will assign cluster labels to new data.<br> This can help in tagging customers to particular clusters using latest transactions data and tracking cluster growth/movement over time.</p>
-<p>This part of the process most likely will be done using a python script that is scheduled to run at a particluar cadence instead of being done via Jupyter. You will have a code or codes that prepare the data in the required format and then a python script that uses the saved scaling and model objects to score the updated data.</p>
+<p>This part of the process most likely will be done using a python script that is scheduled to run at a particular cadence instead of being done via Jupyter. You will have a code or codes that prepare the data in the required format and then a python script that uses the saved scaling and model objects to score the updated data.</p>
 
 </div>
 </div>
@@ -16852,7 +16852,7 @@ inertia 591.0601380602852
 <div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Below proces starts after the features dataset is created at customer id level</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Below process starts after the features dataset is created at customer id level</span>
 <span class="c1"># Please have required steps done prior to this step to have the features dataset ready</span>
 
 <span class="c1"># load features df</span>
