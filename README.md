@@ -14,7 +14,6 @@ The notebooks contain code blocks that can be used as reference for required tas
 
 ## Planned for later (list is WIP as well; suggestions welcome):
  - Decision Trees and Random forests
- - Clustering
  - PySpark (maybe a separate repo with all the above in PySpark)
 
-I plan to keep updating existing notebooks as well with new learnings along the way.
+I plan to keep updating existing notebooks as well along the way.
