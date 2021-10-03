@@ -79,6 +79,7 @@ target/
 
 # VS Code
 .vscode
+.vs
 
 # IPython
 profile_default/

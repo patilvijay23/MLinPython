@@ -3,21 +3,44 @@
 This repository has Jupyter Notebooks showcasing code examples for the purpose of Data Analysis and Machine Learning in Python.
 The notebooks contain code blocks that can be used as reference for required tasks.
 
-## Notebooks:
-### Python
+Conda environment and requirements.txt details are at the end of this readme.
+
+# Notebooks
+## Python
+
+Created and run on Python 3.8.
  - **1_Data_operations.ipynb**: Covers major data operations required before getting into any analysis or model building
  - **2_Pandas_apply_optimization.ipynb**: Shows the comparison between various ways of applying functions to a pandas df. Helps in optimizing pandas codes
  - **3_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
 
-### PySpark
+## PySpark
+These notebooks have been built using Spark 3.1.2 installed on Windows. For Spark 2.4.4 based notebooks, see in `./pyspark/pyspark_2_4_4`.
+
+For Spark installation process, refer to [this Medium article](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e).
  - **pyspark/1_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
 
-## Planned for immediate future:
+
+# Pipeline
+## Planned for immediate future
  - Linear regression
  - Logistic regression
 
-## Planned for later (list is WIP as well; suggestions welcome):
+## Planned for later (list is WIP as well; suggestions welcome)
  - Decision Trees and Random forests
  - More nbs for PySpark
 
 I plan to keep updating existing notebooks as well along the way.
+
+# Requirements for Python
+Create a Python 3.8 environment using the requirements.txt file.
+
+## Commands for conda
+
+Create env
+> `conda create -n mlInPython python=3.8`
+
+Switch to the env
+> `conda activate mlInPython`
+
+Install dependencies
+> `pip install -r requirements.txt`
