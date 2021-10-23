@@ -1,0 +1,6 @@
+payment_type_id,payment_type
+1,cash
+2,credit card
+3,debit card
+4,gift card
+5,others
