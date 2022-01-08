@@ -6,6 +6,8 @@ The notebooks contain code blocks that can be used as reference for required tas
 Conda environment and requirements.txt details are at the end of this readme.
 
 # Notebooks
+Python and PySpark notebooks.
+
 ## Python
 
 Created and run on Python 3.8.
@@ -14,11 +16,14 @@ Created and run on Python 3.8.
  - **3_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
 
 ## PySpark
-These notebooks have been built using Spark 3.1.2 installed on Windows. For Spark 2.4.4 based notebooks, see in `./pyspark/pyspark_2_4_4`.
+These notebooks have been built using Spark 3.1.2 installed on Windows.
+ - **pyspark/1_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
+ - **pyspark/2_Spark_data_ops.ipynb**: Covers major data operations in PySpark
+ - **pyspark/3_rolling_window_features.ipynb**: Classification model using rolling window features
+
+For Spark 2.4.4 based notebooks, see `./pyspark/pyspark_2_4_4`.
 
 For Spark installation process, refer to [this Medium article](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e).
- - **pyspark/1_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
-
 
 # Pipeline
 ## Planned for immediate future
