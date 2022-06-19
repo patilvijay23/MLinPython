@@ -134,3 +134,6 @@ dmypy.json
 
 # parquet files
 *.parquet*
+
+# sparkxgb files
+/pyspark/sparkxgb/
