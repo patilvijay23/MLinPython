@@ -16,10 +16,11 @@ Created and run on Python 3.8.
  - **3_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
 
 ## PySpark
-These notebooks have been built using Spark 3.1.2 installed on Windows.
+These notebooks have been built using Spark 3.1.2 installed on Windows, unless specified.
  - **pyspark/1_Clustering_kmeans.ipynb**: Showcases the flow of a clustering exercise using customer sales data
  - **pyspark/2_Spark_data_ops.ipynb**: Covers major data operations in PySpark
  - **pyspark/3_rolling_window_features.ipynb**: Classification model using rolling window features
+ - **pyspark/4_xgboost.ipynb**: Notebook showcasing how to use XGBoost with Spark 2.4.5
 
 For Spark 2.4.4 based notebooks, see `./pyspark/pyspark_2_4_4`.
 
